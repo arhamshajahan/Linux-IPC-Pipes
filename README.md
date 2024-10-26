@@ -1,6 +1,9 @@
 # Linux-IPC--Pipes
 Linux-IPC-Pipes
 
+## Developed By: ARHAM S.
+## Reg No: 212222110005
+
 
 # Ex03-Linux IPC - Pipes
 
@@ -22,10 +25,8 @@ Write the C Program using Linux Process API - pipe(), fifo()
 Testing the C Program for the desired output. 
 
 # PROGRAM:
-
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
 ```
-#include<stdio.h>
 #include<stdlib.h>
 #include<sys/types.h> 
 #include<sys/stat.h> 
@@ -86,10 +87,12 @@ printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 
 
 ## OUTPUT
-![image](https://github.com/AasrithSairam/Linux-IPC-Pipes/assets/139331438/865da787-d884-4928-b115-c2a5e92a0f7d)
+![OS1](https://github.com/user-attachments/assets/befd4ac4-7afc-4694-bb4b-1f8e09547aa4)
+
 
 
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
+
 ```
 #include <unistd.h>
 #include <stdlib.h>
@@ -105,11 +108,10 @@ exit(EXIT_SUCCESS);
 
 
 
-
 ## OUTPUT
-![image](https://github.com/AasrithSairam/Linux-IPC-Pipes/assets/139331438/10a7a21f-e6aa-4b01-9f49-02ae6cbfadf5)
-![image](https://github.com/AasrithSairam/Linux-IPC-Pipes/assets/139331438/743a916f-89f7-4cb6-959f-3d7b9d597db4)
+![OS2](https://github.com/user-attachments/assets/6782782f-4664-4ea1-96aa-3cae457a86bb)
 
 
-# RESULT:
+## RESULT
 The program is executed successfully.
+
